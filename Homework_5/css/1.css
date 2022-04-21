@@ -1,0 +1,23 @@
+h1{
+    color: rgba(194, 6, 6, 0.974);
+}
+
+a:active{
+    color:#ff0099
+}
+a:visited, a:link {
+    color:green
+}
+a:hover{
+    color:rgb(202, 201, 233)
+}
+#paragraph{
+    color:red
+}
+.bodyparagraph{
+    color:blue
+}
+
+.cursivintext{
+    color:yellow
+}
