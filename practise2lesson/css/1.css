@@ -1,0 +1,43 @@
+/* Classes */
+
+.text-center{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+
+/* End Classes */
+
+h1{
+    /* background-color: blue;
+    color: white; */
+    text-align:  center;
+    font-size: 42px;
+    font-weight: bolder;
+    font-variant: small-caps;
+
+}
+/* .container{
+    align-self: right;
+} */
+
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid black;
+}
+
+table thead tr th{
+    background-color: #bfe0bf;
+} 
+ol{
+    background-color:grey;
+}
+.bordered-box{
+    background-color:grey;
+}
