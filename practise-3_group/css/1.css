@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.allScreen{
+    margin: 0 auto;
+    min-width: 600px;
+}
+header{
+    position: relative;
+   height: 100px;
+    width: 80% ;
+    margin: 0 auto;
+    border: 1px solid red;
+    min-width: 600px;
+    line-height: 100px;
+      
+
+}
+
+.logodiv{
+  
+    display: inline-block;
+    margin-top: 20px;
+}
+a{
+    margin-right: 20px;
+}
+a:active{
+    color:#ff0099
+}
+a:visited, a:link {
+    color:green
+}
+a:hover{
+    color:rgb(202, 201, 233)
+}
+nav{
+    position: absolute;
+    right: 0px;
+    display: inline;
+
+}
+main{
+   width: 80%;
+   margin: 0 auto;
+   border: 1px solid red;
+
+   /* height: 300px; */
+
+
+}
+.section1{
+    position : relative;
+
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    vertical-align: middle;
+   
+    text-align: center;
+    width:100%;
+    background-image: url("https://images.pexels.com/photos/54098/us-army-soldiers-army-men-54098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+}
+h2{
+    position:absolute;
+    top:15%;
+    left: 40%;
+   
+    
+    color: white;
+}
+.paragraph1{
+    position:absolute;
+    top:40%;
+    left: 20%;
+    right: 20%;
+    
+
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+
