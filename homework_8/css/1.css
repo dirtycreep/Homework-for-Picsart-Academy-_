@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    top: 0;
+    position: sticky;
+    height: 70px;
+    background-color:white;
+}
+.header-container {
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 70px;
+}
+header nav {
+    display: inline-block;
+    width: calc(100% - 90px);
+    margin-top: 6px;
+    text-align: right;
+}
+header nav ul {
+    list-style-type: none;
+    margin-top: 17px;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+header nav ul a {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+    font-weight: 500;
+}
+header nav ul a:hover {
+    color: red;
+}
+
+/* Main */
+
+.section-1 {
+    height: 400px;
+    background-image: url("https://media.tproger.ru/uploads/2015/10/sites-prog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+.section-1 h1,
+.section-1 p {
+    color: blue;
+    padding-top: 80px;
+   
+}
+.section-1 h1 {
+    font-size: 90px;
+    margin: 0 0 10px 0;
+}
+.section-1 p {
+    font-size: 10px;
+}
+
+.section {
+    width: 100%;
+}
+
+/* :nth-child(), :nth-last-child(), *:nth-child(), *:nth-of-type() - կիրառել յուրաքանչյուրը առանձին առանձին (2n, An+B …), */
+.section2{
+    padding-top:140px;
+}
+.section2 p{
+    padding-top:40px;
+    font-size: 27px;
+    color: black;
+    
+
+}
+hr.mainHr{
+    height: 10px;
+    background-color: black;
+    opacity: 1;
+}
+.section2 .container p:nth-child(1n+3){
+    color: green;
+}
+.section2 .container2 p:nth-last-child(2n){
+    color: yellow;
+}
+.section2 .container3 *:nth-child(2n-1){
+    color:blue
+}
+.section2 .container4 *:nth-of-type(2n+1){
+    color:pink;
+}
+.section2 .container5{
+    background-color:blueviolet;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    box-shadow: 23px 40px 20px 10px #a1a1a1;
+}
+.section2 .container5 p{
+
+    color: blue;
+  
+   text-shadow: 3px 10px 20px  yellow;
+}
+.section2 .container6{
+    background-color:blueviolet;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+   
+}
+.section2 .container6 p.textwithdisplay{
+    color: white;
+    display: none;
+}
+.section2 .container6 p.text{
+    color: yellow;
+    visibility:hidden;
+
+}
+
+
+.section2 .container7 div{
+    border: 1px solid green;
+ 
+    padding: 10px;
+}
+.section2 .container7 p.texto{
+    color: inherit;
+    border: inherit;
+    padding: inherit;
+   }
+
+
+.section2 .container7 h2{
+    color: inherit;
+
+}
+span{
+    color:red;
+    background-color:red
+}
+
+
+
+
