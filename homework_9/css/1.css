@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+   
+}
+h2 {
+    font-size: clamp(1.75rem, 4vw + 1rem, 3rem);
+  }
+.parent {
+    position: relative;
+    height: 500px;
+  
+}
+.child{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    position: absolute;
+    color: white;
+    height: 100px;
+    width: 150px;
+}
+
+.Control1{
+    margin: 20px 20px;
+
+    z-index: 1;
+
+    background-color:rgb(255, 94, 0);
+  
+}
+.Control2{
+    top: 80px ;
+    left: 90px;
+    z-index: 2;
+    background-color:green;
+
+}
+.Control3{
+    top: 140px ;
+    left: 160px;
+    z-index: 3;
+    background-color:blue;
+
+}
+.Control4{
+    top: 200px ;
+    left: 210px;
+
+    z-index: 4;
+    background-color:pink;
+
+}
+.Control5{
+    top: 260px ;
+    left: 260px;
+
+    z-index: 5;
+    background-color:red;
+
+}
+.Control6{
+    top: 320px ;
+    left: 310px;
+
+    z-index: 6;
+    background-color:rgb(215, 16, 209);
+
+}
+.Control7{
+    top: 380px ;
+    left: 360px;
+ 
+    z-index: 5;
+    background-color:orange;
+
+}
+
+.pseudo::first-letter{
+    color: red;
+    font-size: 30px;
+}
+.pseudo::first-line{
+    color: rgb(159, 33, 182);
+    font-size: 20px;
+}
+
+.pseudo1::before{
+ 
+    background-image: url('https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/2/2020/08/google-gif-logo.gif');
+    background-size: 40px 50px;
+    display: inline-block;
+    width:min(90%, 900px);
+    height: 40px ;
+    content:"";
+    
+}
+
+
+.pseudo1::after{ 
+    content:"body::after here";;
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+.list-inline::marker {
+    color: red;
+    font-size: 29px;
+  }
+::selection {
+    background: red;
+  }
+

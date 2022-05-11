@@ -1,0 +1,134 @@
+body{
+
+margin: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* .parent{
+    
+} */
+
+/* .child{
+    width:90px;
+    height:90px;
+    border: 1px solid green;
+} */
+
+/* .block-1{
+
+    top:20px ;
+    left: 20px;
+    background: blue;
+    opacity: 0.9; */
+    /* z-index: 1; */
+/* } */
+/* .block-2{
+    top:20px ;
+    left: 20px;
+    background: green;
+    opacity: 0.9;
+}
+.block-3{
+    top:20px ;
+    left: 20px;
+    background: pink;
+    opacity: 0.9;
+}
+.block-4{
+    top:20px ;
+    left: 20px;
+    background: yellow;
+    opacity: 0.9;
+} */
+
+
+/* p::first-letter{
+    font-size:90px;
+    color:red;
+
+}
+p::first-line{
+    font-size:20px;
+    color:red;
+
+} */
+
+/* p::before{
+   content: url("https://upload.wikimedia.org/wikipedia/commons/e/e3/Animhorse.gif");
+
+}
+p::after{
+    content: url("https://upload.wikimedia.org/wikipedia/commons/e/e3/Animhorse.gif");
+ 
+ } */
+/* ::selection{
+     background-color: yellow;
+     color: red;
+ } */
+
+/* ::marker{
+    font-size:32px;
+    color: blue;
+ 
+} */
+/* div{
+    width: max(50%, 700px);
+    width: max(700px, 50%); 
+    width: clamp(500px, 50%, 700px);
+    height: 200px;
+    background-color: green;
+} */
+/* @media screen and (max-width:700px) {
+    div{
+        background-color:yellow;
+    }
+    h1{
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    div{
+        background-color:blue;
+    }
+    h1{
+        font-size: 94px;
+    }
+    
+} */
+/* @media screen and (max-width:700px) and (min-width:400px){
+    div{
+        background-color:yellow;
+    }
+    h1{
+        font-size: 14px;
+    }
+    
+} */
+
+div{
+    /* width: 400px ;
+    height:400px; */
+    /* transition: 1s; */
+    /* opacity: 1; */
+    /* background-color:aquamarine; */
+
+    width:100px;
+    height:100px;
+    transition:width 2s, height 4s;
+    background: red;
+}
+#div1{transition-timing-function: linear;}
+
+div:hover{
+    /* border-radius: 50%; */
+    /* transition: 2s; */
+    /* background-color:pink; */
+    width:300px;
+    height:300px;
+
+}
